@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+#root {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.header-title {
+  color: rgb(69, 69, 117);
+  font-family: 'Montserrat', sans-serif;
+}
+h1 > svg {
+  padding-right: 1rem;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+li {
+  list-style: circle;
+  cursor: pointer;
+  border: 1px solid black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+  display: grid;
+  grid-template-columns: 1fr 2rem 2rem;
+  padding: 0.4rem;
+  margin: 0.4rem;
+}
+
+svg {
+  height: 30px;
+  width: 30px;
+}
+
+.todos-list ~ svg{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+}
